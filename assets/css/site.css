@@ -332,3 +332,21 @@ div.arquivo{grid-template-columns:56px 1fr}
   .slide-video video{width:min(250px,68%)}
   .slide-video .legenda{right:0;left:auto;bottom:18%}
 }
+
+/* correções celular (v10) */
+.hero-foto{margin:0}
+@media (max-width:860px){
+  .hero-foto{max-width:320px;width:100%}
+  .slide-video{padding-bottom:16px}
+  .slide-video video{width:min(250px,78%)}
+  .slide-video .legenda,.legenda{left:0;right:auto;bottom:10%;max-width:min(15rem,85%)}
+}
+.calc>*{min-width:0}
+.campo-faixa label{flex-wrap:wrap}
+@media (max-width:860px){.calc{grid-template-columns:minmax(0,1fr);padding:28px 20px}}
+@media (max-width:420px){
+  .btn{white-space:normal;text-align:left;line-height:1.25}
+  .resultado{padding:22px 18px}
+}
+footer .insta{display:inline-flex;align-items:center;gap:.5rem}
+footer .insta svg{width:22px;height:22px}
