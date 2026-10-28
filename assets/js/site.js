@@ -63,7 +63,7 @@
     a.addEventListener('click', function(){ rastrear('clique_parceiro', {parceiro: a.getAttribute('data-parceiro')}); });
   });
   document.querySelectorAll('[data-kit]').forEach(function(a){
-    a.addEventListener('click', function(){ rastrear('download_kit', {arquivo: a.getAttribute('data-kit')}); });
+    a.addEventListener('click', function(){ rastrear('pedir_kit'); });
   });
   document.querySelectorAll('[data-comunidade]').forEach(function(a){
     a.addEventListener('click', function(){ rastrear('entrar_comunidade'); });
