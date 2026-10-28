@@ -97,6 +97,32 @@
     window.open('https://wa.me/' + ZAP + '?text=' + encodeURIComponent(linhas.join('\n')), '_blank', 'noopener');
   });
 
+  // Banner do topo: troca suave de frase e foto
+  var banner = document.querySelector('[data-banner]');
+  if (banner) {
+    var frases = banner.querySelectorAll('.frase');
+    var fotos = document.querySelectorAll('.fotos > picture');
+    var pontos = document.querySelectorAll('.pontos button');
+    var atual = 0, timer = null, pausado = false;
+    var reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var mostrar = function(i){
+      atual = (i + frases.length) % frases.length;
+      frases.forEach(function(f, k){ f.classList.toggle('ativa', k === atual); f.setAttribute('aria-hidden', k === atual ? 'false' : 'true'); });
+      fotos.forEach(function(f, k){ f.classList.toggle('ativa', k === atual); });
+      pontos.forEach(function(b, k){ b.classList.toggle('ativo', k === atual); b.setAttribute('aria-pressed', k === atual ? 'true' : 'false'); });
+    };
+    var parar = function(){ clearInterval(timer); timer = null; };
+    var iniciar = function(){ if (reduzir || pausado || timer) return; timer = setInterval(function(){ mostrar(atual + 1); }, 6500); };
+    pontos.forEach(function(b, k){ b.addEventListener('click', function(){ mostrar(k); pausado = true; parar(); rastrear('banner_frase', {frase: k + 1}); }); });
+    [banner, document.querySelector('.pontos')].forEach(function(el){
+      el.addEventListener('mouseenter', parar); el.addEventListener('mouseleave', iniciar);
+      el.addEventListener('focusin', parar);
+      el.addEventListener('touchstart', function(){ pausado = true; parar(); }, {passive: true});
+    });
+    document.addEventListener('visibilitychange', function(){ document.hidden ? parar() : iniciar(); });
+    iniciar();
+  }
+
   // Voltar ao topo
   var topo = document.querySelector('.topo-btn');
   if (topo) {

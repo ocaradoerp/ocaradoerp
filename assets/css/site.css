@@ -296,3 +296,22 @@ footer .links-int a{opacity:.9}
 .provas .selo img{height:52px}
 div.arquivo{grid-template-columns:56px 1fr}
 .kit .cab .btn{justify-self:start;margin-top:.4rem}
+
+/* título de parceiro no topo */
+.titulo-parceiro{display:inline-flex;align-items:center;gap:.45rem;font-weight:700;font-size:1rem;color:var(--ambar-claro);margin-bottom:1.2rem;letter-spacing:.005em}
+.titulo-parceiro svg{width:1.15em;height:1.15em;flex:none;background:var(--ambar);color:var(--cafe);border-radius:50%;padding:.12em}
+.hero .origem{margin:1.2rem 0 0}
+
+/* banner do topo: 3 frases + 3 fotos */
+.frases{display:grid}
+.frases>.frase{grid-area:1/1;margin:0;opacity:0;transition:opacity .9s ease;font-size:clamp(2.6rem,6.4vw,5.4rem);font-weight:800;letter-spacing:-.035em;line-height:.98;max-width:13ch}
+.frases>.frase.ativa{opacity:1}
+.pontos{display:flex;gap:.25rem;margin:1rem 0 0 -10px}
+.pontos button{background:none;border:0;padding:12px 10px;cursor:pointer}
+.pontos button::before{content:"";display:block;width:22px;height:5px;border-radius:3px;background:rgba(238,240,236,.3);transition:width .3s,background-color .3s}
+.pontos button.ativo::before{width:40px;background:var(--ambar)}
+.fotos{display:grid;align-items:end}
+.fotos>picture{grid-area:1/1;opacity:0;transition:opacity .9s ease}
+.fotos>picture.ativa{opacity:1}
+.frases>.frase{max-width:15ch;font-size:clamp(2.5rem,5.8vw,4.9rem)}
+.frases>.frase{font-size:clamp(2.4rem,5.2vw,4.4rem)}
