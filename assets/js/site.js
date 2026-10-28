@@ -101,14 +101,20 @@
   var banner = document.querySelector('[data-banner]');
   if (banner) {
     var frases = banner.querySelectorAll('.frase');
-    var fotos = document.querySelectorAll('.fotos > picture');
+    var fotos = document.querySelectorAll('.fotos > .slide');
     var pontos = document.querySelectorAll('.pontos button');
     var atual = 0, timer = null, pausado = false;
     var reduzir = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     var mostrar = function(i){
       atual = (i + frases.length) % frases.length;
       frases.forEach(function(f, k){ f.classList.toggle('ativa', k === atual); f.setAttribute('aria-hidden', k === atual ? 'false' : 'true'); });
-      fotos.forEach(function(f, k){ f.classList.toggle('ativa', k === atual); });
+      fotos.forEach(function(f, k){
+        f.classList.toggle('ativa', k === atual);
+        var v = f.querySelector('video');
+        if (!v) return;
+        if (k === atual && !reduzir) { try { v.currentTime = 0; var pr = v.play(); if (pr && pr.catch) pr.catch(function(){}); } catch(e){} }
+        else { v.pause(); }
+      });
       pontos.forEach(function(b, k){ b.classList.toggle('ativo', k === atual); b.setAttribute('aria-pressed', k === atual ? 'true' : 'false'); });
     };
     var parar = function(){ clearInterval(timer); timer = null; };
