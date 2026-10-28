@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-TGPW44G4');</script>
+<!-- End Google Tag Manager -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Migração do Bling para o Sistema ERP da Olist | O Cara do ERP</title>
+<meta name="description" content="Migração do Bling para o Sistema ERP da Olist com Guilherme Moraes, O Cara do ERP: produtos, clientes, pedidos e estoque conferidos antes da virada, integrações refeitas e equipe treinada.">
+<link rel="canonical" href="https://www.ocaradoerp.com.br/migracao-bling/">
+<meta name="theme-color" content="#201812">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://www.ocaradoerp.com.br/migracao-bling/">
+<meta property="og:title" content="Migração do Bling para o Sistema ERP da Olist">
+<meta property="og:description" content="Migração do Bling para o Sistema ERP da Olist com Guilherme Moraes, O Cara do ERP: produtos, clientes, pedidos e estoque conferidos antes da virada, integrações refeitas e equipe treinada.">
+<meta property="og:image" content="https://www.ocaradoerp.com.br/assets/img/og-ocaradoerp.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="/assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "O Cara do ERP",
+  "url": "https://www.ocaradoerp.com.br/",
+  "image": "https://www.ocaradoerp.com.br/assets/img/guilherme-moraes-1000.jpg",
+  "telephone": "+55 16 99986-4902",
+  "areaServed": "BR",
+  "description": "Implantação, migração, parametrização, treinamento e gestão de processos em ERP, lojas virtuais e marketplaces.",
+  "founder": {
+    "@type": "Person",
+    "name": "Guilherme Moraes",
+    "jobTitle": "Especialista em implantação de ERP",
+    "sameAs": ["https://www.instagram.com/ocaradoerp/"]
+  },
+  "sameAs": ["https://www.instagram.com/ocaradoerp/"]
+}
+</script>
+
+
+<link rel="stylesheet" href="/assets/css/site.css">
+<script type="application/ld+json">
+{
+ "@context": "https://schema.org",
+ "@type": "FAQPage",
+ "mainEntity": [
+  {
+   "@type": "Question",
+   "name": "Vou parar de vender durante a migração?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "A ideia é não parar. O Bling continua operando enquanto a Olist é preparada e conferida, e a virada é planejada com data e horário combinados."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Preciso cancelar o Bling antes?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Não. Mantenha o Bling ativo até a virada e a conferência final. Só depois disso faz sentido encerrar."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "O que acontece com os anúncios nos marketplaces?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "As integrações são refeitas no Sistema ERP da Olist e conferidas canal por canal antes de entrarem em produção."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Quanto custa a migração?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Cada migração é personalizada, porque depende do volume de dados e dos canais. Depois do diagnóstico você recebe escopo, prazo e investimento, sem compromisso."
+   }
+  },
+  {
+   "@type": "Question",
+   "name": "Minha equipe vai saber usar o sistema novo?",
+   "acceptedAnswer": {
+    "@type": "Answer",
+    "text": "Sim. O treinamento faz parte da migração, com roteiros práticos para cada função."
+   }
+  }
+ ]
+}
+</script>
+</head>
+<body data-origem="bling">
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGPW44G4" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
+<!-- ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-relogio" viewBox="0 0 48 48">
+    <path d="M24 5a19 19 0 1 1-17.6 11.8" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M2.6 13.6l3.8 3.2 3.6-4.1" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+  <symbol id="i-topo" viewBox="0 0 24 24"><path d="M12 19V5M5.5 11.5 12 5l6.5 6.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+</svg>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="/" aria-label="O Cara do ERP, início">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#i-relogio" color="#E9A23B"/><path class="ponteiro-h" d="M24 24V15" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/><path class="ponteiro-m" d="M24 24l7.5 5.5" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/></svg>
+      <span><small>o cara do</small><b>ERP</b></span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="/#servicos">Serviços</a>
+      <a href="/#por-que-olist">Sistema ERP da Olist</a>
+      <a href="/#kit">Kit de teste</a>
+      <a href="/#comunidade">Comunidade</a>
+      <a class="btn btn-zap" href="https://wa.me/5516999864902" data-zap="topo"><svg aria-hidden="true"><use href="#i-zap"/></svg>Fale comigo</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero sub" style="padding:0">
+    <div class="wrap">
+      <div class="hero-texto">
+        <h1>Do Bling para o Sistema ERP da Olist, sem perder nada pelo caminho.</h1>
+        <p class="lead">Migro produtos, clientes, pedidos e estoque para o Sistema ERP da Olist, confiro tudo antes da virada e deixo sua equipe treinada para operar no sistema novo.</p>
+        <div class="acoes">
+          <a class="btn btn-zap" href="https://wa.me/5516999864902?text=Ol%C3%A1%2C%20Guilherme%21%20Quero%20migrar%20do%20Bling%20para%20o%20Sistema%20ERP%20da%20Olist." data-zap="bling-hero"><svg aria-hidden="true"><use href="#i-zap"/></svg>Cotar minha migração</a>
+          <a class="btn btn-linha" href="#parceiros">Conhecer o Sistema ERP da Olist</a>
+        </div>
+        <div class="provas">
+          <div><strong>15+</strong><span>anos de campo</span></div>
+          <div><strong>150+</strong><span>clientes implantados</span></div>
+          <div class="selo"><picture><source type="image/webp" srcset="/assets/img/selo-parceiro-certificado-olist.webp"><img src="/assets/img/selo-parceiro-certificado-olist.png" width="486" height="196" alt="Selo Olist Parceiro Certificado"></picture></div>
+        </div>
+      </div>
+      <figure class="hero-foto">
+        <picture>
+          <source type="image/webp" srcset="/assets/img/guilherme-moraes-640.webp 640w, /assets/img/guilherme-moraes-1000.webp 1000w" sizes="(max-width:860px) 380px, 420px">
+          <img src="/assets/img/guilherme-moraes-640.jpg" width="640" height="961" alt="Guilherme Moraes, o Cara do ERP" fetchpriority="high">
+        </picture>
+      </figure>
+    </div>
+  </section>
+
+  <section aria-labelledby="t-junto">
+    <div class="wrap">
+      <div class="cab">
+        <h2 id="t-junto">O que vai junto na mudança</h2>
+        <p class="lead">Nada de recomeçar do zero. O histórico da sua operação chega organizado no sistema novo.</p>
+      </div>
+      <ul class="migra-lista">
+        <li><h3>Produtos</h3><p>Cadastros, variações, SKUs, NCM, preços e custos, revisados antes da importação.</p></li>
+        <li><h3>Clientes</h3><p>Base de clientes com dados de contato e endereços.</p></li>
+        <li><h3>Pedidos</h3><p>Histórico de vendas para você não perder a referência do passado.</p></li>
+        <li><h3>Estoque</h3><p>Saldos conferidos no dia da virada, para começar no sistema novo com o número certo.</p></li>
+        <li><h3>Integrações</h3><p>Marketplaces e loja virtual reconectados e testados canal por canal.</p></li>
+        <li><h3>Regras e automações</h3><p>Regras fiscais, automações e fluxos refeitos do jeito que a sua empresa trabalha.</p></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="processo" aria-labelledby="t-proc">
+    <div class="wrap">
+      <div class="cab"><h2 id="t-proc">Como a migração acontece</h2></div>
+      <ol class="passos">
+        <li><div><h3>Diagnóstico</h3><p>Analiso a conta atual, os canais e o que precisa ser migrado.</p></div></li>
+        <li><div><h3>Limpeza dos dados</h3><p>Cadastros revisados antes de importar, para não levar bagunça junto.</p></div></li>
+        <li><div><h3>Importação e conferência</h3><p>Dados no Sistema ERP da Olist e conferidos item a item.</p></div></li>
+        <li><div><h3>Integrações e testes</h3><p>Marketplaces, loja virtual e notas fiscais testados antes da virada.</p></div></li>
+        <li><div><h3>Virada e treinamento</h3><p>Data combinada, equipe treinada e acompanhamento nos primeiros dias.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="olist-rec" aria-labelledby="t-olist">
+    <div class="wrap">
+      <div class="cab">
+        <h2 id="t-olist">O que o Sistema ERP da Olist oferece</h2>
+        <p class="lead">Um sistema feito para quem vende em vários canais. Esses são alguns dos recursos que a sua operação passa a ter.</p>
+      </div>
+      <div>
+        <ul class="recursos">
+        <li><h3>Notas fiscais no automático</h3><p>Emissão de NF-e, NFC-e e NFS-e, inclusive de forma automática, a cada venda.</p></li>
+        <li><h3>Mais de 40 marketplaces</h3><p>Integração com mais de 40 marketplaces e importação automática e ilimitada de pedidos.</p></li>
+        <li><h3>Expedição sem gargalo</h3><p>Automações de separação e expedição, com impressão automática de etiqueta e DANFE.</p></li>
+        <li><h3>Estoque sob controle</h3><p>Gestão de estoque, operação multiempresa e PDV para a loja física.</p></li>
+        <li><h3>Financeiro organizado</h3><p>Controle financeiro, conciliação bancária e antecipação de recebíveis.</p></li>
+        <li><h3>Inteligência artificial</h3><p>Assistente com inteligência artificial integrado ao sistema.</p></li>
+        </ul>
+        <p class="fonte">Recursos conforme a <a href="https://olist.com/lp/sistema-de-gestao?parceiro=OCARADOERP&amp;utm_source=site&amp;utm_campaign=OCARADOERP-affiliate-site&amp;utm_medium=affiliate&amp;utm_content=&amp;utm_term=&amp;cupom=OCARADOERP" target="_blank" rel="noopener sponsored" data-parceiro="olist-fonte">página oficial da Olist</a> em outubro de 2026. A disponibilidade varia conforme o plano.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="parceiros" id="parceiros" aria-labelledby="t-parc" style="padding-top:0">
+    <div class="wrap">
+      <div class="grade">
+        <article class="cupom olist">
+          <span class="quem">Gestão do negócio</span>
+          <p class="oferta">Sistema ERP da Olist<small>Notas, estoque, pedidos e financeiro em um só lugar</small></p>
+          <p>Pelo meu link: mínimo de 30 dias grátis e 3 meses com 50% de desconto em qualquer plano.</p>
+          <a class="btn btn-zap" href="https://olist.com/lp/sistema-de-gestao?parceiro=OCARADOERP&amp;utm_source=site&amp;utm_campaign=OCARADOERP-affiliate-site&amp;utm_medium=affiliate&amp;utm_content=&amp;utm_term=&amp;cupom=OCARADOERP" target="_blank" rel="noopener sponsored" data-parceiro="olist-bling">Conhecer o Sistema ERP da Olist</a>
+        </article>
+        <article class="cupom li">
+          <span class="quem">Implantação guiada</span>
+          <p class="oferta">Projeto sob medida<small>escopo, prazo e investimento antes de começar</small></p>
+          <p>Conversamos sobre a sua operação e você recebe uma proposta personalizada, sem compromisso.</p>
+          <a class="btn btn-escuro" href="#contato">Quero uma proposta</a>
+        </article>
+      </div>
+      <div class="aviso-selo"><span class="selo"><picture><source type="image/webp" srcset="/assets/img/selo-parceiro-certificado-olist.webp"><img src="/assets/img/selo-parceiro-certificado-olist.png" width="486" height="196" alt="Selo Olist Parceiro Certificado" loading="lazy"></picture></span><p class="aviso">Sou Parceiro Certificado e Embaixador Somos Olist. As condições valem para contratações feitas pelo link de parceiro, enquanto estiverem vigentes, e podem mudar conforme as regras da Olist.</p></div>
+    </div>
+  </section>
+
+  <section class="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <div class="cab"><h2 id="t-faq">Dúvidas sobre a migração</h2></div>
+      <details><summary>Vou parar de vender durante a migração?</summary><p>A ideia é não parar. O Bling continua operando enquanto a Olist é preparada e conferida, e a virada é planejada com data e horário combinados.</p></details>
+      <details><summary>Preciso cancelar o Bling antes?</summary><p>Não. Mantenha o Bling ativo até a virada e a conferência final. Só depois disso faz sentido encerrar.</p></details>
+      <details><summary>O que acontece com os anúncios nos marketplaces?</summary><p>As integrações são refeitas no Sistema ERP da Olist e conferidas canal por canal antes de entrarem em produção.</p></details>
+      <details><summary>Quanto custa a migração?</summary><p>Cada migração é personalizada, porque depende do volume de dados e dos canais. Depois do diagnóstico você recebe escopo, prazo e investimento, sem compromisso.</p></details>
+      <details><summary>Minha equipe vai saber usar o sistema novo?</summary><p>Sim. O treinamento faz parte da migração, com roteiros práticos para cada função.</p></details>
+    </div>
+  </section>
+
+  <section class="cta-final" id="contato" aria-labelledby="t-cta">
+    <div class="wrap">
+      <div>
+        <h2 id="t-cta">Vamos planejar sua migração?</h2>
+        <p class="lead">Me conte como está sua operação e eu respondo com os próximos passos.</p>
+      </div>
+      <div class="acoes">
+        <a class="btn btn-zap" href="https://wa.me/5516999864902?text=Ol%C3%A1%2C%20Guilherme%21%20Quero%20migrar%20do%20Bling%20para%20o%20Sistema%20ERP%20da%20Olist." data-zap="bling-final"><svg aria-hidden="true"><use href="#i-zap"/></svg>Chamar no WhatsApp</a>
+        <a class="btn btn-linha" href="/#cotacao">Preencher o formulário</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="marca" href="/" aria-label="O Cara do ERP, página inicial">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#i-relogio" color="#E9A23B"/><path d="M24 24V15" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/><path d="M24 24l7.5 5.5" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/></svg>
+      <span><small>o cara do</small><b>ERP</b></span>
+    </a>
+    <span class="selo selo-rodape"><picture><source type="image/webp" srcset="/assets/img/selo-parceiro-certificado-olist.webp"><img src="/assets/img/selo-parceiro-certificado-olist.png" width="486" height="196" alt="Selo Olist Parceiro Certificado" loading="lazy"></picture></span>
+    <ul class="links-int">
+      <li><a href="/#por-que-olist">Sistema ERP da Olist</a></li>
+      <li><a href="/migracao-bling/">Migração do Bling</a></li>
+      <li><a href="/tiny/">Especialista em Tiny</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://www.instagram.com/ocaradoerp/" target="_blank" rel="noopener" data-insta>Instagram @ocaradoerp</a></li>
+      <li><a href="https://chat.whatsapp.com/HYjwi8RYD5YH8qgoTvv7V4" target="_blank" rel="noopener" data-comunidade>Comunidade Máquina do Tempo</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://wa.me/5516999864902" data-zap="rodape">WhatsApp (16) 99986-4902</a></li>
+      <li><a href="https://wa.me/5511950931688" data-zap="rodape-reserva">Reserva (11) 95093-1688</a></li>
+    </ul>
+    <p class="rodape-fim">© <span id="ano">2026</span> Guilherme Moraes, O Cara do ERP. Olist, Tiny, Loja Integrada, Shoppub e Bling são marcas de seus respectivos donos.</p>
+  </div>
+</footer>
+
+<a class="flutuante" href="https://wa.me/5516999864902" aria-label="Falar no WhatsApp" data-zap="flutuante"><svg aria-hidden="true"><use href="#i-zap"/></svg></a>
+<button class="topo-btn" type="button" aria-label="Voltar ao topo"><svg aria-hidden="true"><use href="#i-topo"/></svg></button>
+
+<script src="/assets/js/config.js"></script>
+<script src="/assets/js/site.js" defer></script>
+</body>
+</html>
