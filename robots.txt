@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.ocaradoerp.com.br/sitemap.xml

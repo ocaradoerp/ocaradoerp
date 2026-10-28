@@ -1,0 +1,642 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>O Cara do ERP · Guilherme Moraes | Implantação e migração de ERP, lojas virtuais e marketplaces</title>
+<meta name="description" content="Guilherme Moraes, O Cara do ERP: mais de 15 anos e 150 clientes em implantação, migração, parametrização e treinamento de ERP, lojas virtuais e marketplaces. Condições exclusivas Olist e Loja Integrada.">
+<link rel="canonical" href="https://www.ocaradoerp.com.br/">
+<meta name="theme-color" content="#201812">
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:url" content="https://www.ocaradoerp.com.br/">
+<meta property="og:title" content="O Cara do ERP · Guilherme Moraes">
+<meta property="og:description" content="Seu ERP deveria devolver tempo, não roubar. Implantação guiada, migração, mentoria e treinamento.">
+<meta property="og:image" content="https://www.ocaradoerp.com.br/assets/img/og-ocaradoerp.jpg">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="assets/img/apple-touch-icon.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700;12..96,800&display=swap" rel="stylesheet">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ProfessionalService",
+  "name": "O Cara do ERP",
+  "url": "https://www.ocaradoerp.com.br/",
+  "image": "https://www.ocaradoerp.com.br/assets/img/guilherme-moraes-1000.jpg",
+  "telephone": "+55 16 99986-4902",
+  "areaServed": "BR",
+  "description": "Implantação, migração, parametrização, treinamento e gestão de processos em ERP, lojas virtuais e marketplaces.",
+  "founder": {
+    "@type": "Person",
+    "name": "Guilherme Moraes",
+    "jobTitle": "Especialista em implantação de ERP",
+    "sameAs": ["https://www.instagram.com/ocaradoerp/"]
+  },
+  "sameAs": ["https://www.instagram.com/ocaradoerp/"]
+}
+</script>
+
+<!--
+  RASTREAMENTO (opcional) — para tráfego pago, descomente e troque os IDs:
+  1) Google Analytics 4: troque G-XXXXXXXXXX
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}gtag('js',new Date());gtag('config','G-XXXXXXXXXX');</script>
+
+  2) Meta Pixel (Instagram/Facebook Ads): troque SEU_PIXEL_ID
+  <script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js');fbq('init','SEU_PIXEL_ID');fbq('track','PageView');</script>
+
+  Os cliques em WhatsApp, Olist, Loja Integrada, downloads e envio da cotação já disparam eventos automaticamente.
+-->
+
+<style>
+:root{
+  --cafe:#201812;
+  --cafe-2:#2c221b;
+  --papel:#EEF0EC;
+  --papel-2:#E2E6E1;
+  --tinta:#17221E;
+  --tinta-2:#4A5751;
+  --petroleo:#1F4A43;
+  --petroleo-2:#173A35;
+  --ambar:#E9A23B;
+  --ambar-claro:#F6C978;
+  --linha:rgba(23,34,30,.14);
+  --raio-s:6px;
+  --raio-m:14px;
+  --gutter:clamp(16px,4vw,48px);
+  --largura:1180px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{animation:none!important;transition:none!important}}
+body{margin:0;background:var(--papel);color:var(--tinta);font-family:"Bricolage Grotesque",system-ui,sans-serif;font-size:1.0625rem;line-height:1.6;font-optical-sizing:auto;overflow-x:hidden}
+img{max-width:100%;display:block}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--ambar);outline-offset:3px;border-radius:4px}
+.wrap{max-width:var(--largura);margin:0 auto;padding:0 var(--gutter)}
+h1,h2,h3{line-height:1.05;margin:0;font-weight:700;letter-spacing:-.02em}
+h2{font-size:clamp(2rem,4.6vw,3.4rem);font-weight:800}
+h3{font-size:1.3rem;letter-spacing:-.01em}
+p{margin:0}
+.lead{font-size:clamp(1.1rem,1.6vw,1.25rem);color:var(--tinta-2);max-width:60ch}
+
+/* botões */
+.btn{display:inline-flex;align-items:center;gap:.6em;font:inherit;font-weight:700;font-size:1.02rem;text-decoration:none;border:0;border-radius:999px;padding:.95em 1.5em;cursor:pointer;white-space:nowrap;transition:transform .15s ease,background-color .15s ease}
+.btn:active{transform:translateY(1px)}
+.btn svg{width:1.25em;height:1.25em;flex:none}
+.btn-zap{background:var(--ambar);color:var(--cafe)}
+.btn-zap:hover{background:var(--ambar-claro)}
+.btn-linha{background:transparent;color:inherit;box-shadow:inset 0 0 0 2px currentColor}
+.btn-linha:hover{background:rgba(255,255,255,.08)}
+.btn-escuro{background:var(--tinta);color:var(--papel)}
+.btn-escuro:hover{background:var(--petroleo)}
+
+/* topo */
+.topo{position:absolute;inset:0 0 auto 0;z-index:5}
+.topo .wrap{display:flex;align-items:center;justify-content:space-between;height:84px}
+.marca{display:flex;align-items:center;gap:.55rem;text-decoration:none;color:var(--papel)}
+.marca svg{width:44px;height:44px;flex:none}
+.marca span{display:flex;flex-direction:column;line-height:1}
+.marca small{font-size:.8rem;font-weight:500;opacity:.75;letter-spacing:.01em}
+.marca b{font-size:1.45rem;font-weight:800;letter-spacing:-.03em}
+.topo nav{display:flex;gap:1.6rem;align-items:center}
+.topo nav a{color:var(--papel);text-decoration:none;font-weight:500;opacity:.8;font-size:.98rem}
+.topo nav a:hover{opacity:1}
+.topo nav a.btn{opacity:1}
+.topo .btn{padding:.6em 1.1em;font-size:.95rem}
+@media (max-width:860px){.topo nav a:not(.btn){display:none}}
+
+/* hero */
+.hero{background:radial-gradient(120% 90% at 78% 30%,#3a2d24 0%,var(--cafe) 55%,#150f0b 100%);color:var(--papel);position:relative;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:1.1fr .9fr;align-items:end;gap:2rem;min-height:min(100svh,880px);padding-top:110px}
+.hero-texto{padding-bottom:clamp(48px,8vw,96px);align-self:center}
+.hero .origem{display:inline-block;background:rgba(233,162,59,.14);color:var(--ambar-claro);border:1px solid rgba(233,162,59,.35);padding:.35em .9em;border-radius:999px;font-weight:600;font-size:.95rem;margin-bottom:1.4rem}
+.hero .origem[hidden]{display:none}
+.hero h1{font-size:clamp(2.6rem,6.4vw,5.4rem);font-weight:800;letter-spacing:-.035em;line-height:.98;max-width:13ch}
+.hero h1 .relogio{display:inline-block;width:.78em;height:.78em;vertical-align:-.04em;margin:0 .02em}
+.hero .lead{color:rgba(238,240,236,.78);margin-top:1.5rem;max-width:46ch}
+.hero .acoes{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:2rem}
+.provas{display:flex;gap:2.4rem;margin-top:2.6rem;flex-wrap:wrap}
+.provas div{display:flex;flex-direction:column}
+.provas strong{font-size:2.3rem;font-weight:800;letter-spacing:-.03em;line-height:1;color:var(--ambar-claro);font-variant-numeric:tabular-nums}
+.provas span{font-size:.95rem;opacity:.72;margin-top:.3rem}
+.hero-foto{align-self:end;position:relative;justify-self:end;width:100%;max-width:520px}
+.hero-foto img{width:100%;height:auto;-webkit-mask-image:linear-gradient(to bottom,transparent 0,#000 14%,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);-webkit-mask-composite:source-in;mask-image:linear-gradient(to bottom,transparent 0,#000 14%,#000 70%,transparent 100%),linear-gradient(to right,transparent 0,#000 12%,#000 88%,transparent 100%);mask-composite:intersect}
+.hero-foto figcaption{position:absolute;left:8%;bottom:9%;background:var(--papel);color:var(--tinta);padding:.7em 1em;border-radius:var(--raio-m);font-size:.92rem;line-height:1.3;max-width:15rem;box-shadow:0 18px 40px -18px rgba(0,0,0,.6)}
+.hero-foto figcaption b{display:block;font-size:1.05rem}
+@media (max-width:860px){
+  .hero .wrap{grid-template-columns:1fr;min-height:0;padding-top:100px;gap:0}
+  .hero-texto{padding-bottom:1rem}
+  .hero-foto{justify-self:center;max-width:380px;margin-top:1rem}
+  .hero-foto figcaption{left:0;bottom:12%}
+}
+
+/* animação de entrada única: ponteiros do relógio voltando no tempo */
+.ponteiro-m{transform-origin:24px 24px;animation:volta 1.6s cubic-bezier(.3,.7,.2,1) .2s both}
+.ponteiro-h{transform-origin:24px 24px;animation:volta-h 1.6s cubic-bezier(.3,.7,.2,1) .2s both}
+@keyframes volta{from{transform:rotate(720deg)}to{transform:rotate(0)}}
+@keyframes volta-h{from{transform:rotate(60deg)}to{transform:rotate(0)}}
+
+/* seções */
+section{padding:clamp(72px,10vw,128px) 0}
+.cab{display:grid;gap:1.1rem;margin-bottom:clamp(36px,5vw,56px);max-width:760px}
+
+/* manifesto */
+.manifesto{padding-bottom:0}
+.manifesto p.grande{font-size:clamp(1.5rem,3.2vw,2.35rem);line-height:1.22;font-weight:600;letter-spacing:-.015em;max-width:28ch}
+.manifesto p.grande em{font-style:normal;color:var(--petroleo);background:linear-gradient(transparent 62%,rgba(233,162,59,.45) 62%)}
+.manifesto .colunas{display:grid;grid-template-columns:1fr 1fr;gap:clamp(24px,5vw,72px);align-items:start}
+.manifesto .colunas .lead{margin-top:.4rem}
+.manifesto .colunas .lead + .lead{margin-top:1rem}
+@media (max-width:860px){.manifesto .colunas{grid-template-columns:1fr}}
+
+/* calculadora */
+.calc{background:var(--petroleo);color:var(--papel);border-radius:28px;margin:clamp(56px,8vw,96px) var(--gutter) 0;padding:clamp(32px,5vw,64px);max-width:calc(var(--largura) - 2*var(--gutter));display:grid;grid-template-columns:1fr 1fr;gap:clamp(28px,5vw,64px);align-items:center}
+@media (min-width:1180px){.calc{margin-left:auto;margin-right:auto}}
+.calc h2{font-size:clamp(1.8rem,3.4vw,2.6rem)}
+.calc .lead{color:rgba(238,240,236,.78);margin-top:1rem}
+.campo-faixa{margin-top:1.6rem}
+.campo-faixa label{display:flex;justify-content:space-between;font-weight:600;margin-bottom:.5rem;gap:1rem}
+.campo-faixa output{font-variant-numeric:tabular-nums;color:var(--ambar-claro);font-weight:800;white-space:nowrap}
+input[type=range]{width:100%;accent-color:var(--ambar);height:28px;cursor:pointer}
+.resultado{background:var(--petroleo-2);border-radius:20px;padding:clamp(24px,4vw,40px);text-align:left}
+.resultado .num{font-size:clamp(3.6rem,9vw,6.4rem);font-weight:800;letter-spacing:-.045em;line-height:.9;color:var(--ambar);font-variant-numeric:tabular-nums}
+.resultado .unid{font-size:1.25rem;font-weight:600;margin-top:.4rem}
+.resultado p{color:rgba(238,240,236,.75);margin-top:1rem;max-width:36ch}
+.resultado .btn{margin-top:1.6rem}
+@media (max-width:860px){.calc{grid-template-columns:1fr;border-radius:20px}}
+
+/* serviços */
+.servicos ul{list-style:none;margin:0;padding:0;border-top:1px solid var(--linha)}
+.servicos li{display:grid;grid-template-columns:minmax(180px,.8fr) 1.6fr;gap:1.5rem;padding:1.6rem 0;border-bottom:1px solid var(--linha);align-items:baseline}
+.servicos li h3{font-size:clamp(1.3rem,2.2vw,1.65rem)}
+.servicos li p{color:var(--tinta-2);max-width:58ch}
+@media (max-width:640px){.servicos li{grid-template-columns:1fr;gap:.4rem}}
+.formatos{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:2rem}
+.formatos span{background:var(--papel-2);border-radius:999px;padding:.45em 1em;font-weight:600;font-size:.95rem}
+
+/* processo (sequência real) */
+.processo{background:var(--papel-2)}
+.passos{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:0;counter-reset:passo;position:relative}
+.passos li{counter-increment:passo;padding:0 1.2rem 0 0;position:relative}
+.passos li::before{content:counter(passo);display:grid;place-items:center;width:46px;height:46px;border-radius:50%;background:var(--tinta);color:var(--papel);font-weight:800;font-size:1.15rem;margin-bottom:1.1rem;position:relative;z-index:1}
+.passos li::after{content:"";position:absolute;top:23px;left:46px;right:0;height:2px;background:var(--linha)}
+.passos li:last-child::after{display:none}
+.passos h3{font-size:1.15rem;margin-bottom:.4rem}
+.passos p{color:var(--tinta-2);font-size:.98rem}
+@media (max-width:900px){
+  .passos{grid-template-columns:1fr;gap:1.6rem}
+  .passos li{display:grid;grid-template-columns:46px 1fr;column-gap:1rem;padding:0}
+  .passos li::before{margin:0;grid-row:span 2}
+  .passos li::after{top:46px;left:22px;width:2px;height:calc(100% - 46px + 1.6rem);right:auto}
+}
+
+/* parceiros */
+.parceiros .grade{display:grid;grid-template-columns:1fr 1fr;gap:1.4rem}
+.cupom{position:relative;border-radius:var(--raio-m);padding:clamp(26px,3.5vw,40px);display:flex;flex-direction:column;gap:1rem;overflow:hidden}
+.cupom.olist{background:var(--tinta);color:var(--papel)}
+.cupom.li{background:#fff;color:var(--tinta);box-shadow:inset 0 0 0 1.5px var(--linha)}
+.cupom .quem{font-weight:700;font-size:1.05rem;opacity:.8}
+.cupom .oferta{font-size:clamp(1.9rem,3.6vw,2.7rem);font-weight:800;letter-spacing:-.03em;line-height:1.02}
+.cupom.olist .oferta small{color:var(--ambar-claro)}
+.cupom .oferta small{display:block;font-size:.55em;font-weight:700;letter-spacing:-.01em;margin-top:.35em}
+.cupom p:not(.oferta){opacity:.8;max-width:44ch}
+.cupom .btn{align-self:flex-start;margin-top:auto}
+.parceiro-extra{margin-top:1.4rem;border-radius:var(--raio-m);background:var(--papel-2);padding:clamp(22px,3vw,32px) clamp(26px,3.5vw,40px);display:flex;gap:1.5rem 2.5rem;align-items:center;justify-content:space-between;flex-wrap:wrap}
+.parceiro-extra .quem{font-weight:700;opacity:.8;display:block;margin-bottom:.4rem}
+.parceiro-extra p{color:var(--tinta-2);max-width:70ch}
+.aviso{font-size:.88rem;color:var(--tinta-2);margin-top:1.2rem;max-width:70ch}
+@media (max-width:860px){.parceiros .grade{grid-template-columns:1fr}}
+
+/* kit */
+.kit .grade{display:grid;grid-template-columns:1fr 1.2fr;gap:clamp(24px,5vw,72px);align-items:start}
+.arquivos{display:grid;gap:.8rem}
+.arquivo{display:grid;grid-template-columns:56px 1fr auto;align-items:center;gap:1rem;background:#fff;border-radius:var(--raio-m);padding:1rem 1.2rem;text-decoration:none;box-shadow:inset 0 0 0 1.5px var(--linha);transition:box-shadow .15s}
+.arquivo:hover{box-shadow:inset 0 0 0 2px var(--petroleo)}
+.arquivo .ico{width:56px;height:56px;border-radius:10px;background:var(--petroleo);color:var(--papel);display:grid;place-items:center;font-weight:800;font-size:1.25rem;font-variant-numeric:tabular-nums;line-height:1}
+.arquivo b{display:block;font-size:1.1rem}
+.arquivo small{color:var(--tinta-2);font-size:.92rem}
+.arquivo .baixar{font-weight:700;color:var(--petroleo);font-size:.95rem}
+@media (max-width:860px){.kit .grade{grid-template-columns:1fr}}
+@media (max-width:420px){.arquivo{grid-template-columns:48px 1fr}.arquivo .ico{width:48px;height:48px;font-size:1.05rem}.arquivo .baixar{grid-column:2}}
+
+/* comunidade */
+.comunidade{background:var(--cafe);color:var(--papel)}
+.comunidade .wrap{display:grid;grid-template-columns:auto 1fr auto;gap:clamp(24px,4vw,56px);align-items:center}
+.comunidade svg.grande{width:clamp(90px,12vw,150px);height:auto}
+.comunidade h2{font-size:clamp(1.8rem,3.6vw,2.8rem)}
+.comunidade .lead{color:rgba(238,240,236,.75);margin-top:.8rem}
+@media (max-width:860px){.comunidade .wrap{grid-template-columns:1fr}}
+
+/* cotação */
+.cotacao .grade{display:grid;grid-template-columns:.9fr 1.1fr;gap:clamp(28px,5vw,80px);align-items:start}
+.cotacao .contatos{margin-top:2rem;display:grid;gap:.8rem}
+.cotacao .contatos a{display:flex;gap:.7rem;align-items:center;text-decoration:none;font-weight:600}
+.cotacao .contatos svg{width:22px;height:22px;color:var(--petroleo)}
+form{background:#fff;border-radius:20px;padding:clamp(22px,3.5vw,40px);box-shadow:inset 0 0 0 1.5px var(--linha);display:grid;grid-template-columns:1fr 1fr;gap:1.1rem 1rem}
+form .cheio{grid-column:1/-1}
+form label,form legend{font-weight:600;font-size:.95rem;display:block;margin-bottom:.35rem}
+form input[type=text],form select,form textarea{width:100%;font:inherit;font-size:1rem;padding:.75em .9em;border-radius:var(--raio-s);border:1.5px solid var(--linha);background:var(--papel);color:var(--tinta)}
+form input:focus,form select:focus,form textarea:focus{outline:none;border-color:var(--petroleo);box-shadow:0 0 0 3px rgba(31,74,67,.18)}
+form textarea{min-height:96px;resize:vertical}
+fieldset{border:0;margin:0;padding:0}
+.opcoes{display:flex;flex-wrap:wrap;gap:.5rem}
+.opcoes label{margin:0;font-weight:500;display:inline-flex;align-items:center;gap:.4rem;background:var(--papel);border-radius:999px;padding:.45em .9em;cursor:pointer;border:1.5px solid transparent}
+.opcoes input{accent-color:var(--petroleo)}
+.opcoes label:has(input:checked){border-color:var(--petroleo);background:#fff}
+form .btn{justify-self:start}
+form .nota{font-size:.88rem;color:var(--tinta-2);align-self:center}
+.erro{color:#a1301e;font-size:.9rem;font-weight:600;grid-column:1/-1}
+.erro[hidden]{display:none}
+@media (max-width:860px){.cotacao .grade{grid-template-columns:1fr}}
+@media (max-width:560px){form{grid-template-columns:1fr}}
+
+/* faq */
+.faq{padding-top:0}
+.faq details{border-bottom:1px solid var(--linha);padding:1.2rem 0}
+.faq details:first-of-type{border-top:1px solid var(--linha)}
+.faq summary{cursor:pointer;font-weight:700;font-size:1.15rem;list-style:none;display:flex;justify-content:space-between;gap:1rem}
+.faq summary::-webkit-details-marker{display:none}
+.faq summary::after{content:"+";font-size:1.5rem;line-height:1;color:var(--petroleo);transition:transform .2s}
+.faq details[open] summary::after{transform:rotate(45deg)}
+.faq details p{color:var(--tinta-2);margin-top:.7rem;max-width:68ch}
+
+/* rodapé */
+footer{background:#150f0b;color:rgba(238,240,236,.75);padding:56px 0 calc(40px + env(safe-area-inset-bottom))}
+footer .wrap{display:flex;flex-wrap:wrap;gap:2rem;justify-content:space-between;align-items:flex-start}
+footer a{text-decoration:none}
+footer a:hover{color:var(--ambar-claro)}
+footer ul{list-style:none;margin:0;padding:0;display:grid;gap:.5rem}
+footer .marca{color:var(--papel)}
+footer .rodape-fim{width:100%;font-size:.85rem;opacity:.65;border-top:1px solid rgba(238,240,236,.12);padding-top:1.4rem}
+
+/* botão flutuante (celular) */
+.flutuante{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:20;width:58px;height:58px;border-radius:50%;background:#25D366;color:#fff;display:none;place-items:center;box-shadow:0 10px 30px -8px rgba(0,0,0,.45)}
+.flutuante svg{width:30px;height:30px}
+@media (max-width:860px){.flutuante{display:grid}}
+</style>
+</head>
+<body>
+
+<!-- ícones reutilizáveis -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="i-zap" viewBox="0 0 24 24"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91C21.95 6.45 17.5 2 12.04 2Zm0 18.15c-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.25-8.24 4.54 0 8.24 3.7 8.24 8.24 0 4.55-3.7 8.24-8.24 8.24Zm4.52-6.17c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.13-.16.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-1.99-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.13-.15.17-.25.25-.42.08-.17.04-.31-.02-.43-.06-.13-.56-1.35-.77-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.22.25-.86.85-.86 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.22-.16-.47-.28Z"/></symbol>
+  <symbol id="i-insta" viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="1.8" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Z"/><circle cx="12" cy="12" r="4" fill="none" stroke="currentColor" stroke-width="1.8"/><circle cx="17.3" cy="6.7" r="1.1" fill="currentColor"/></symbol>
+  <symbol id="i-relogio" viewBox="0 0 48 48">
+    <path d="M24 5a19 19 0 1 1-17.6 11.8" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round"/>
+    <path d="M2.6 13.6l3.8 3.2 3.6-4.1" fill="none" stroke="currentColor" stroke-width="4.2" stroke-linecap="round" stroke-linejoin="round"/>
+  </symbol>
+</svg>
+
+<header class="topo">
+  <div class="wrap">
+    <a class="marca" href="#inicio" aria-label="O Cara do ERP, início">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#i-relogio" color="#E9A23B"/><path class="ponteiro-h" d="M24 24V15" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/><path class="ponteiro-m" d="M24 24l7.5 5.5" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/></svg>
+      <span><small>o cara do</small><b>ERP</b></span>
+    </a>
+    <nav aria-label="Principal">
+      <a href="#servicos">Serviços</a>
+      <a href="#parceiros">Condições Olist</a>
+      <a href="#kit">Kit de teste</a>
+      <a href="#comunidade">Comunidade</a>
+      <a class="btn btn-zap" href="https://wa.me/5516999864902" data-zap="topo"><svg aria-hidden="true"><use href="#i-zap"/></svg>Fale comigo</a>
+    </nav>
+  </div>
+</header>
+
+<main id="inicio">
+  <section class="hero" style="padding:0">
+    <div class="wrap">
+      <div class="hero-texto">
+        <p class="origem" id="origem" hidden></p>
+        <h1>Seu ERP deveria devolver tempo, não roubar.</h1>
+        <p class="lead">Sou Guilherme Moraes, o Cara do ERP. Implanto, migro e organizo ERP, loja virtual e marketplace para que você e sua equipe parem de apagar incêndio e voltem a fazer o que importa: vender.</p>
+        <div class="acoes">
+          <a class="btn btn-zap" href="#cotacao"><svg aria-hidden="true"><use href="#i-zap"/></svg>Cotar meu projeto</a>
+          <a class="btn btn-linha" href="#parceiros">Testar o Olist com desconto</a>
+        </div>
+        <div class="provas">
+          <div><strong>15+</strong><span>anos de campo</span></div>
+          <div><strong>150+</strong><span>clientes implantados</span></div>
+        </div>
+      </div>
+      <figure class="hero-foto">
+        <picture>
+          <source type="image/webp" srcset="assets/img/guilherme-moraes-640.webp 640w, assets/img/guilherme-moraes-1000.webp 1000w" sizes="(max-width:860px) 380px, 520px">
+          <img src="assets/img/guilherme-moraes-1000.jpg" width="1000" height="1502" alt="Guilherme Moraes, o Cara do ERP, sentado, de blazer bege e camisa preta" fetchpriority="high">
+        </picture>
+        <figcaption><b>Guilherme Moraes</b>Especialista em implantação de ERP, lojas virtuais e marketplaces</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section class="manifesto" aria-labelledby="t-manifesto">
+    <div class="wrap colunas">
+      <p class="grande" id="t-manifesto">Criar uma conta e ligar automações qualquer um faz. O que eu entrego é <em>uma máquina do tempo</em>.</p>
+      <div>
+        <p class="lead">São processos desenhados para a rotina da sua empresa, que reduzem e organizam o trabalho de todo dia. Sua equipe passa a operar com mais precisão e segurança, sem retrabalho, planilha paralela ou pedido perdido.</p>
+        <p class="lead">O sistema vira seu aliado, não sua dor de cabeça. E o tempo que sobra vai para o que realmente interessa.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="calc" id="calculadora" role="region" aria-labelledby="t-calc">
+    <div>
+      <h2 id="t-calc">Quanto tempo sua operação perde hoje?</h2>
+      <p class="lead">Some as horas que sua equipe gasta digitando pedido, conferindo estoque, emitindo nota manualmente e corrigindo erro.</p>
+      <div class="campo-faixa">
+        <label for="pessoas">Pessoas na operação <output id="o-pessoas" for="pessoas">3 pessoas</output></label>
+        <input type="range" id="pessoas" min="1" max="30" value="3">
+      </div>
+      <div class="campo-faixa">
+        <label for="horas">Horas por semana, por pessoa, em tarefa manual <output id="o-horas" for="horas">6 h</output></label>
+        <input type="range" id="horas" min="1" max="30" value="6">
+      </div>
+    </div>
+    <div class="resultado" aria-live="polite">
+      <div class="num" id="r-horas">864</div>
+      <div class="unid">horas por ano</div>
+      <p id="r-texto">É como ter uma pessoa trabalhando quase 20 semanas inteiras só em retrabalho. Esse é o tempo que a gente vai buscar de volta.</p>
+      <a class="btn btn-zap" href="#cotacao" id="r-cta"><svg aria-hidden="true"><use href="#i-zap"/></svg>Quero esse tempo de volta</a>
+    </div>
+  </div>
+
+  <section class="servicos" id="servicos" aria-labelledby="t-serv">
+    <div class="wrap">
+      <div class="cab">
+        <h2 id="t-serv">Do diagnóstico ao time rodando sozinho.</h2>
+        <p class="lead">Experiência real de campo em ERP, lojas virtuais e marketplaces, do pequeno lojista à operação com várias pessoas e canais.</p>
+      </div>
+      <ul>
+        <li><h3>Migração</h3><p>Troca de sistema sem perder histórico: produtos, clientes, pedidos e estoque saem do sistema antigo e entram organizados no novo, com conferência antes de virar a chave.</p></li>
+        <li><h3>Implantação</h3><p>Configuração completa do ERP: cadastros, fiscal, integrações com loja virtual (Loja Integrada, Shoppub e outras) e marketplaces, logística e financeiro funcionando juntos desde o primeiro dia.</p></li>
+        <li><h3>Parametrização</h3><p>Regras, automações e fluxos ajustados ao jeito que a sua empresa vende, e não o contrário.</p></li>
+        <li><h3>Treinamento</h3><p>Sua equipe aprende a operar com segurança, com roteiros práticos para cada função: atendimento, expedição, compras e financeiro.</p></li>
+        <li><h3>Gestão de processos</h3><p>Acompanhamento depois da implantação para medir, corrigir e manter a operação afiada, inclusive nos picos como a Black Friday.</p></li>
+      </ul>
+      <div class="formatos" aria-label="Formatos de atendimento">
+        <span>Implantação guiada</span><span>Mentoria para empresários</span><span>Treinamento de equipes</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="processo" aria-labelledby="t-proc">
+    <div class="wrap">
+      <div class="cab">
+        <h2 id="t-proc">Como funciona a implantação guiada</h2>
+      </div>
+      <ol class="passos">
+        <li><div><h3>Diagnóstico</h3><p>Entendo como sua empresa vende, onde estão os gargalos e o que precisa mudar.</p></div></li>
+        <li><div><h3>Plano</h3><p>Você recebe o escopo, o cronograma e o investimento antes de qualquer começo.</p></div></li>
+        <li><div><h3>Migração e configuração</h3><p>Dados, integrações e regras montados e testados.</p></div></li>
+        <li><div><h3>Treinamento</h3><p>Cada pessoa aprende exatamente o que vai usar.</p></div></li>
+        <li><div><h3>Virada e acompanhamento</h3><p>Entramos em produção juntos e ajustamos o que a rotina mostrar.</p></div></li>
+      </ol>
+    </div>
+  </section>
+
+  <section class="parceiros" id="parceiros" aria-labelledby="t-parc">
+    <div class="wrap">
+      <div class="cab">
+        <h2 id="t-parc">Comece com condições que só meus links liberam.</h2>
+        <p class="lead">Contrate pelo link de parceiro e garanta o desconto. Se quiser, eu cuido da implantação depois.</p>
+      </div>
+      <div class="grade">
+        <article class="cupom olist">
+          <span class="quem">Olist · sistema de gestão (ERP)</span>
+          <p class="oferta">30 dias grátis<small>+ 3 meses com 50% de desconto</small></p>
+          <p>Teste mínimo de 30 dias sem custo e, depois, metade do preço nos três primeiros meses em qualquer plano Olist.</p>
+          <a class="btn btn-zap" href="https://olist.com/lp/sistema-de-gestao/?parceiro=OCARADOERP" target="_blank" rel="noopener sponsored" data-parceiro="olist">Ativar condição no Olist</a>
+        </article>
+        <article class="cupom li">
+          <span class="quem">Loja Integrada · loja virtual</span>
+          <p class="oferta">20% de desconto<small>nos planos anuais</small></p>
+          <p>Monte ou migre sua loja virtual com 20% de desconto na contratação do plano anual.</p>
+          <a class="btn btn-escuro" href="https://indiquei.app/NZOBMOE" target="_blank" rel="noopener sponsored" data-parceiro="loja-integrada">Ativar condição na Loja Integrada</a>
+        </article>
+      </div>
+      <div class="parceiro-extra">
+        <div>
+          <span class="quem">Shoppub · plataforma de e-commerce</span>
+          <p>Também sou parceiro da Shoppub, com conhecimento profundo da plataforma. Se sua loja roda na Shoppub ou vai migrar para ela, eu cuido da implantação e da integração com o ERP e os marketplaces.</p>
+        </div>
+        <a class="btn btn-escuro" href="https://wa.me/5516999864902?text=Ol%C3%A1%2C%20Guilherme!%20Quero%20falar%20sobre%20minha%20loja%20na%20Shoppub." data-zap="shoppub"><svg aria-hidden="true"><use href="#i-zap"/></svg>Falar sobre Shoppub</a>
+      </div>
+      <p class="aviso">Sou parceiro da Olist e da Loja Integrada. As condições valem para contratações feitas pelos links acima e podem mudar conforme as regras de cada empresa.</p>
+    </div>
+  </section>
+
+  <section class="kit" id="kit" aria-labelledby="t-kit" style="padding-top:0">
+    <div class="wrap grade">
+      <div class="cab" style="margin:0">
+        <h2 id="t-kit">Teste a velocidade do Olist com dados de verdade.</h2>
+        <p class="lead">Montei três planilhas fictícias, já no formato de importação do Olist. Crie sua conta de teste, importe e veja o sistema trabalhando com volume real.</p>
+      </div>
+      <div class="arquivos">
+        <a class="arquivo" href="assets/kit/produtos-200-olist.xlsx" download data-kit="produtos"><span class="ico">200</span><span><b>Produtos</b><small>SKU, NCM, preço, custo e estoque</small></span><span class="baixar">Baixar .xlsx</span></a>
+        <a class="arquivo" href="assets/kit/clientes-150-olist.xlsx" download data-kit="clientes"><span class="ico">150</span><span><b>Clientes</b><small>Pessoas físicas e jurídicas, endereços completos</small></span><span class="baixar">Baixar .xlsx</span></a>
+        <a class="arquivo" href="assets/kit/pedidos-500-olist.xlsx" download data-kit="pedidos"><span class="ico">500</span><span><b>Pedidos</b><small>Pedidos de venda prontos para importar</small></span><span class="baixar">Baixar .xlsx</span></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="comunidade" id="comunidade" aria-labelledby="t-com">
+    <div class="wrap">
+      <svg class="grande" viewBox="0 0 48 48" aria-hidden="true"><use href="#i-relogio" color="#E9A23B"/><path d="M24 24V15" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/><path d="M24 24l7.5 5.5" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/></svg>
+      <div>
+        <h2 id="t-com">Comunidade Máquina do Tempo</h2>
+        <p class="lead">Um grupo no WhatsApp para empresários que querem tirar o melhor do ERP: dicas práticas, novidades do Olist e dos marketplaces e conversa direta comigo. Estamos começando agora.</p>
+      </div>
+      <a class="btn btn-zap" href="https://chat.whatsapp.com/HYjwi8RYD5YH8qgoTvv7V4" target="_blank" rel="noopener" data-comunidade><svg aria-hidden="true"><use href="#i-zap"/></svg>Entrar na comunidade</a>
+    </div>
+  </section>
+
+  <section class="cotacao" id="cotacao" aria-labelledby="t-cot">
+    <div class="wrap grade">
+      <div>
+        <div class="cab" style="margin-bottom:0">
+          <h2 id="t-cot">Vamos fazer sua implantação guiada?</h2>
+          <p class="lead">Conte um pouco da sua operação. A mensagem chega pronta no meu WhatsApp e eu respondo com os próximos passos.</p>
+        </div>
+        <div class="contatos">
+          <a href="https://wa.me/5516999864902" data-zap="contato"><svg aria-hidden="true"><use href="#i-zap"/></svg>(16) 99986-4902</a>
+          <a href="https://wa.me/5511950931688" data-zap="reserva"><svg aria-hidden="true"><use href="#i-zap"/></svg>(11) 95093-1688 <small style="font-weight:400;color:var(--tinta-2)">reserva</small></a>
+          <a href="https://www.instagram.com/ocaradoerp/" target="_blank" rel="noopener" data-insta><svg aria-hidden="true"><use href="#i-insta"/></svg>@ocaradoerp</a>
+        </div>
+      </div>
+
+      <form id="form-cotacao" novalidate>
+        <div><label for="f-nome">Seu nome</label><input type="text" id="f-nome" name="nome" autocomplete="name" required></div>
+        <div><label for="f-empresa">Empresa</label><input type="text" id="f-empresa" name="empresa" autocomplete="organization"></div>
+        <fieldset class="cheio">
+          <legend>Onde você vende</legend>
+          <div class="opcoes">
+            <label><input type="checkbox" name="canais" value="Loja virtual">Loja virtual</label>
+            <label><input type="checkbox" name="canais" value="Marketplaces">Marketplaces</label>
+            <label><input type="checkbox" name="canais" value="Loja física">Loja física</label>
+            <label><input type="checkbox" name="canais" value="Atacado / B2B">Atacado / B2B</label>
+          </div>
+        </fieldset>
+        <div>
+          <label for="f-erp">Sistema que usa hoje</label>
+          <select id="f-erp" name="erp">
+            <option>Nenhum, uso planilha</option>
+            <option>Olist / Tiny</option>
+            <option>Bling</option>
+            <option>Outro ERP</option>
+          </select>
+        </div>
+        <div>
+          <label for="f-pedidos">Pedidos por mês</label>
+          <select id="f-pedidos" name="pedidos">
+            <option>Até 300</option>
+            <option>300 a 1.000</option>
+            <option>1.000 a 5.000</option>
+            <option>Mais de 5.000</option>
+          </select>
+        </div>
+        <div class="cheio">
+          <label for="f-interesse">O que você precisa</label>
+          <select id="f-interesse" name="interesse">
+            <option>Implantação guiada</option>
+            <option>Migração de sistema</option>
+            <option>Mentoria</option>
+            <option>Treinamento da equipe</option>
+            <option>Ainda não sei, quero um diagnóstico</option>
+          </select>
+        </div>
+        <div class="cheio"><label for="f-msg">Maior dor hoje <small style="font-weight:400;color:var(--tinta-2)">(opcional)</small></label><textarea id="f-msg" name="msg" placeholder="Ex.: estoque não bate entre a loja e os marketplaces"></textarea></div>
+        <p class="erro" id="f-erro" hidden>Preencha seu nome para eu saber com quem estou falando.</p>
+        <button class="btn btn-zap" type="submit"><svg aria-hidden="true"><use href="#i-zap"/></svg>Enviar pelo WhatsApp</button>
+        <p class="nota">Nada fica salvo neste site. A mensagem abre direto no WhatsApp.</p>
+      </form>
+    </div>
+  </section>
+
+  <section class="faq" aria-labelledby="t-faq">
+    <div class="wrap">
+      <div class="cab"><h2 id="t-faq">Perguntas frequentes</h2></div>
+      <details><summary>Preciso já ter o Olist para contratar a implantação?</summary><p>Não. Se você ainda não tem, crie a conta pelo meu link para garantir o desconto. Se já tem, eu entro na sua conta atual e organizo o que está lá.</p></details>
+      <details><summary>Você migra do Bling, de planilha ou de outro ERP?</summary><p>Sim, migração é uma das minhas especialidades. Levo produtos, clientes, pedidos e estoque e confiro tudo antes da virada.</p></details>
+      <details><summary>Usar seu link de parceiro deixa o plano mais caro?</summary><p>Não. Pelo link você recebe uma condição melhor do que a do site, e o valor do plano é pago direto à Olist ou à Loja Integrada.</p></details>
+      <details><summary>Como é feita a cotação?</summary><p>Você me conta sobre a operação pelo formulário ou WhatsApp, fazemos uma conversa de diagnóstico e eu envio o escopo com prazo e investimento. Só começamos depois da sua aprovação.</p></details>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap">
+    <a class="marca" href="#inicio" aria-label="O Cara do ERP, voltar ao início">
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#i-relogio" color="#E9A23B"/><path d="M24 24V15" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/><path d="M24 24l7.5 5.5" stroke="#EEF0EC" stroke-width="4.2" stroke-linecap="round"/></svg>
+      <span><small>o cara do</small><b>ERP</b></span>
+    </a>
+    <ul>
+      <li><a href="https://www.instagram.com/ocaradoerp/" target="_blank" rel="noopener" data-insta>Instagram @ocaradoerp</a></li>
+      <li><a href="https://www.instagram.com/paidolele/" target="_blank" rel="noopener">Pessoal @paidolele</a></li>
+      <li><a href="https://chat.whatsapp.com/HYjwi8RYD5YH8qgoTvv7V4" target="_blank" rel="noopener" data-comunidade>Comunidade Máquina do Tempo</a></li>
+    </ul>
+    <ul>
+      <li><a href="https://wa.me/5516999864902" data-zap="rodape">WhatsApp (16) 99986-4902</a></li>
+      <li><a href="https://wa.me/5511950931688" data-zap="rodape-reserva">Reserva (11) 95093-1688</a></li>
+    </ul>
+    <p class="rodape-fim">© <span id="ano">2026</span> Guilherme Moraes, O Cara do ERP. Olist, Loja Integrada e Shoppub são marcas de seus respectivos donos.</p>
+  </div>
+</footer>
+
+<a class="flutuante" href="https://wa.me/5516999864902" aria-label="Falar no WhatsApp" data-zap="flutuante"><svg aria-hidden="true"><use href="#i-zap"/></svg></a>
+
+<script>
+(function(){
+  var ZAP = '5516999864902';
+  var params = new URLSearchParams(location.search);
+
+  // Origem: domínios redirecionados chegam com ?origem=bling ou ?origem=tiny
+  var origem = (params.get('origem') || params.get('utm_source') || '').toLowerCase();
+  var faixa = document.getElementById('origem');
+  var textos = {
+    bling: 'Veio do Bling? Migração é comigo.',
+    tiny: 'Tiny e Olist: é comigo mesmo.'
+  };
+  if (textos[origem]) { faixa.textContent = textos[origem]; faixa.hidden = false; }
+
+  function rastrear(evento, dados){
+    dados = dados || {};
+    if (origem) dados.origem = origem;
+    try { if (window.gtag) gtag('event', evento, dados); } catch(e){}
+    try { if (window.fbq) fbq('trackCustom', evento, dados); } catch(e){}
+  }
+  function lead(){ try { if (window.fbq) fbq('track','Lead'); } catch(e){} try { if (window.gtag) gtag('event','generate_lead'); } catch(e){} }
+
+  // Calculadora
+  var p = document.getElementById('pessoas'), h = document.getElementById('horas');
+  var rH = document.getElementById('r-horas'), rT = document.getElementById('r-texto');
+  var fmt = new Intl.NumberFormat('pt-BR');
+  var totalAno = 0;
+  function calcular(){
+    var pessoas = +p.value, horas = +h.value;
+    document.getElementById('o-pessoas').textContent = pessoas + (pessoas === 1 ? ' pessoa' : ' pessoas');
+    document.getElementById('o-horas').textContent = horas + ' h';
+    totalAno = pessoas * horas * 48;
+    var semanas = Math.round(totalAno / 44);
+    rH.textContent = fmt.format(totalAno);
+    rT.textContent = semanas >= 52
+      ? 'É como pagar ' + fmt.format(Math.round(semanas/52*10)/10).replace('.', ',') + ' funcionário(s) o ano inteiro só para retrabalho. Esse é o tempo que a gente vai buscar de volta.'
+      : 'É como ter uma pessoa trabalhando ' + semanas + ' semanas inteiras só em retrabalho. Esse é o tempo que a gente vai buscar de volta.';
+  }
+  p.addEventListener('input', calcular); h.addEventListener('input', calcular); calcular();
+  document.getElementById('r-cta').addEventListener('click', function(){ rastrear('calculadora_cta', {horas_ano: totalAno}); });
+
+  // Cliques
+  document.querySelectorAll('[data-zap]').forEach(function(a){
+    a.addEventListener('click', function(){ rastrear('clique_whatsapp', {local: a.dataset.zap}); lead(); });
+    if (origem && a.href.indexOf('?')<0) { a.href += '?text=' + encodeURIComponent('Oi, Guilherme! Vim pelo site (' + origem + ').'); }
+  });
+  document.querySelectorAll('[data-parceiro]').forEach(function(a){
+    a.addEventListener('click', function(){ rastrear('clique_parceiro', {parceiro: a.dataset.parceiro}); });
+  });
+  document.querySelectorAll('[data-kit]').forEach(function(a){
+    a.addEventListener('click', function(){ rastrear('download_kit', {arquivo: a.dataset.kit}); });
+  });
+  document.querySelectorAll('[data-comunidade]').forEach(function(a){
+    a.addEventListener('click', function(){ rastrear('entrar_comunidade'); });
+  });
+
+  // Formulário → WhatsApp
+  var form = document.getElementById('form-cotacao');
+  form.addEventListener('submit', function(ev){
+    ev.preventDefault();
+    var f = new FormData(form);
+    var nome = (f.get('nome') || '').trim();
+    var erro = document.getElementById('f-erro');
+    if (!nome) { erro.hidden = false; document.getElementById('f-nome').focus(); return; }
+    erro.hidden = true;
+    var canais = f.getAll('canais').join(', ') || 'não informado';
+    var linhas = [
+      'Olá, Guilherme! Quero cotar um projeto.',
+      '',
+      '*Nome:* ' + nome,
+      (f.get('empresa') || '').trim() ? '*Empresa:* ' + f.get('empresa').trim() : null,
+      '*Onde vendo:* ' + canais,
+      '*Sistema atual:* ' + f.get('erp'),
+      '*Pedidos/mês:* ' + f.get('pedidos'),
+      '*Preciso de:* ' + f.get('interesse'),
+      (f.get('msg') || '').trim() ? '*Maior dor:* ' + f.get('msg').trim() : null,
+      '*Tempo perdido (calculadora):* ' + fmt.format(totalAno) + ' h/ano',
+      origem ? '*Origem:* ' + origem : null
+    ].filter(function(x){ return x !== null; });
+    rastrear('enviar_cotacao', {interesse: f.get('interesse'), erp: f.get('erp'), pedidos: f.get('pedidos')});
+    lead();
+    window.open('https://wa.me/' + ZAP + '?text=' + encodeURIComponent(linhas.join('\n')), '_blank', 'noopener');
+  });
+
+  document.getElementById('ano').textContent = new Date().getFullYear();
+})();
+</script>
+</body>
+</html>
